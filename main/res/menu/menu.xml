@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <item
+        android:id="@+id/one"
+        android:title="AC Service and Repair" />
+    <item
+        android:id="@+id/two"
+        android:title="Beautician"/>
+    <item
+        android:id="@+id/three"
+        android:title="Carpenter"/>
+    <item
+        android:id="@+id/four"
+        android:title="Dietician"/>
+    <item
+        android:id="@+id/five"
+        android:title="Pest Control"/>
+    <item
+        android:id="@+id/six"
+        android:title="Key Maker"/>
+    <item
+        android:id="@+id/seven"
+        android:title="Mechanic"/>
+    <item
+        android:id="@+id/eight"
+        android:title="Electrician"/>
+    <item
+        android:id="@+id/nine"
+        android:title="Plumber"/>
+    <item
+        android:id="@+id/ten"
+        android:title="Packers and Movers"/>
+</menu>

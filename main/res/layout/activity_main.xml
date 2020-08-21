@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stpro"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:fontFamily="@font/robotoregular"
+    android:text="Work Heaven"
+    android:textSize="50dp"
+    />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="75dp"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="20sp"
+        android:fontFamily="@font/robotoregular"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:fontFamily="@font/robotoregular"
+        />
+    <EditText
+        android:id="@+id/cate"
+        android:layout_marginTop="20dp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:hint="category"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/robotoregular"
+        android:text="Login"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="New To Work Heaven ?"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/robotoregular"
+        />
+</LinearLayout>
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
+</LinearLayout>
